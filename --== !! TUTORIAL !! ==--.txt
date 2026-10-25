@@ -1,0 +1,51 @@
+# LÖVE2D
+To run 'MIDIGraphRenderer.love', First download LÖVE2D from https://love2d.org/
+Now you can open any .love file.
+Also .love is just a compressed source. (.zip)
+
+
+# FFMPEG
+You must also include ffmpeg.exe in the program's folder or else you can't export mp4 videos.
+Download 'ffmpeg.exe' from https://www.ffmpeg.org/download.html
+
+
+# simplemidicsv.exe  ----  [NEW METHOD FOR EXPORTING CSV!!!]
+Thanks to Anon64, He made a program that QUICKLY exports midi into csv!!! This is pretty poggers. (This has a 1:1 file size ram ratio!)
+Unzip the simplemidicsv.zip using WinRAR and then open cmd on the extracted folder.. And then... Well, see below.
+
+Password: YW5vbjY0X3NpbXBsZW1pZGljc3YtZXhl (b64 decode it first)
+
+The usage is pretty simple to do:
+
+simplemidicsv.exe <input_midi_file> <output_csv_file> [target_fps, default is 60]
+
+Where you replace "<input_midi_file>" with your input midi path, And "<output_csv_file>" with the output csv path.
+Example:
+
+simplemidicsv.exe "Cool MIDI File.mid" outputxd.csv 240
+
+If there are any bugs with the program, report it to Anon64 in the BMC Discord server and not me.
+
+
+# ZENITH 2  ----  [OLD METHOD FOR EXPORTING CSV]
+To make a .csv file using Zenith 2, First download Zenith 2 from https://github.com/arduano/Zenith-MIDI/releases/tag/2.1.5
+After that, open Zenith 2 and load any MIDI.
+Go to "Modules" and set rendering type to "Note Counter"
+Go to "Module Settings" and go to "Save Data" and enable "Save frame data to .csv file" and put ur save location there.
+Changing the exported vid's fps also changes the csv's fps rate too.
+I usually render .csv zenith 2 stuff with an extremely low resolution (like 4 x 4) and empty text on note counter so it renders a bit more faster. The D14YOB video in my 2nd channel used a CSV fps rate of 120. which you should also input 120 in the CSV fps rate in MIDIGraphRenderer.
+
+Note that Zenith 2 is unstable. (zenith 2 might freeze after clicking preview/render for the second time)
+
+
+The MIDIGraphRenderer program is still in BETA so expect BUGS.
+
+
+By the way, If you're gonna make a video and include the graph program stuff in it, Credit me for it and put "#MIDIGraphRenderer" tag on the vid's description!
+And also put:
+The graph on this video was rendering using MIDIGraphRenderer by Danidanijr. (https://sites.google.com/view/danidanijr/projects)
+on the description too (before the tag and stuff i guess)
+(it doesn't need to be exactly that, any credits to MIDIGR being different is fine)
+
+
+- Danidanijr
